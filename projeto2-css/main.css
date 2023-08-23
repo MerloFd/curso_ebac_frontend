@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header{
+    background-color: rgb(46, 46, 42);
+    padding: 16px 0;
+    color: azure;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+header li a{
+    color: azure;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 16px;
+}
+header li{
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img{
+    /*height: 180px;*/
+    width: 100%;
+    border: 3px solid rgba(33, 35, 37, 0.3);
+    border-radius: 18px;
+}
+
+.articles article{
+    width: 30%;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2,
+.articles article{
+    margin-bottom: 16px;
+}
+
+.articles article h3{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles p,
+.articles a{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles h3{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#sports h2,
+#economy h2,
+#entertainment h2,
+#tecnology h2,
+#world h2{
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article a{
+    background-color: blue;
+    color: azure;
+    padding: 6px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 700;
+    margin-top: 16px;
+    border-radius: 6px;
+}
+.articles article a:hover{
+    text-decoration: underline;
+    border-radius: 10px;
+}
+
+#world {
+    background-color: rgba(33, 35, 37, 0.1);
+}
+
+#world .articles article a {
+    background-color: rgba(33, 35, 37, 0.2);;
+    color: black;;
+    border: 1px solid black;
+}
+
+#sports {
+    background-color: rgba(0, 136, 255, 0.1);
+}
+#sports .articles article a{
+    background-color: rgba(0, 200, 255, 0.6);
+    color: black;;
+    border: 1px solid black;
+}
+
+#economy {
+    background-color: rgba(0, 255, 0, 0.1);
+}
+
+#economy .articles article a{
+    background-color: rgba(136,255, 0, 0.6);
+    color: black;;
+    border: 1px solid black;
+}
+
+#tecnology {
+    background-color:rgba(251, 255, 0, 0.1);
+}
+
+#tecnology .articles article a {
+    background-color: rgba(251, 255, 0, 0.3);
+    color: black;
+    border: 1px solid black;
+}
+
+#entertainment {
+    background-color:rgba(120, 0, 255, 0.1);
+}
+
+#entertainment .articles article a{
+    background-color: rgba(120, 0, 255, 0.3) ;
+    color: black;
+    border: 1px solid black;
+}
+
+#menu img{
+    width: 4%;
+    left: 0;
+    top: 0; 
+    position: fixed;
+    margin: 0px;
+    background-color:rgb(46, 46, 42);
+    border-radius: 8px;
+}
